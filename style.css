@@ -1,0 +1,272 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    color: #005A9C; /* Azul escuro - cor primária sugerida */
+}
+
+h1 {
+    font-size: 2.8em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    padding-top: 20px;
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+section {
+    padding: 40px 0;
+}
+
+/* Cabeçalho (Hero Section) */
+.hero-section {
+    background-color: #007BFF; /* Azul vibrante - pode ser ajustado */
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    color: #fff;
+}
+
+.hero-section .subtitle {
+    font-size: 1.4em;
+    margin-bottom: 1.5em;
+}
+
+.hero-image {
+    max-width: 300px; /* Ajusta conforme o tamanho do teu mockup */
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FFC107; /* Amarelo - cor de destaque */
+    color: #333;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button.primary {
+    background-color: #FFC107;
+}
+
+.cta-button.primary:hover {
+    background-color: #e0a800; /* Amarelo mais escuro no hover */
+}
+
+/* Apresentação do Problema/Solução */
+.problem-solution {
+    background-color: #fff;
+    text-align: center;
+}
+
+.problem-solution h2 {
+    margin-top: 0;
+}
+
+/* Funcionalidades Principais */
+.features {
+    background-color: #e9ecef; /* Cinza claro */
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsivo */
+    gap: 30px;
+    text-align: center;
+}
+
+.feature-item {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.feature-icon {
+    font-size: 2.5em; /* Ajusta se estiveres a usar ícones de fontes */
+    margin-bottom: 15px;
+    color: #007BFF;
+    /* Para imagens de ícones:
+    img { max-width: 50px; margin-bottom: 15px; }
+    */
+}
+
+.feature-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Benefícios */
+.benefits {
+    background-color: #fff;
+}
+
+.benefits ul {
+    list-style: none; /* Remove marcadores padrão */
+    padding: 0;
+}
+
+.benefits li {
+    background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23007BFF" width="18px" height="18px"><path d="M0 0h24v24H0z" fill="none"/><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>') no-repeat left center; /* Ícone de check simples (SVG embutido) */
+    padding-left: 30px; /* Espaço para o ícone */
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Visual Adicional/Como Funciona */
+.how-it-works {
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.app-screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.screenshot-placeholder {
+    text-align: center;
+}
+
+.screenshot-placeholder img {
+    max-width: 200px; /* Ajusta conforme o tamanho dos teus screenshots */
+    height: auto;
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.screenshot-placeholder p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.workflow-description {
+    margin-top: 30px;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Depoimentos */
+.testimonials {
+    background-color: #fff;
+}
+
+.testimonial-item {
+    background: #f9f9f9;
+    border-left: 5px solid #007BFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 0 5px 5px 0;
+}
+
+.testimonial-item blockquote {
+    margin: 0;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.testimonial-item cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Chamada para Ação Secundária */
+.secondary-cta {
+    background-color: #005A9C; /* Azul escuro */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.secondary-cta h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #FFC107; /* Amarelo para links no rodapé */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries para Responsividade (Exemplo básico) */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    .hero-section .subtitle {
+        font-size: 1.2em;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr; /* Coluna única em telas menores */
+    }
+
+    .app-screenshots {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .screenshot-placeholder img {
+        max-width: 80%;
+    }
+}
